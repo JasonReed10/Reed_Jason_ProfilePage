@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container d-flex">
+            <div class="gap d-flex">
+                <h1><a href="#" class="profile">Profile</a></h1>
+                <ul class=" gap nav_tabs">
+                    <li><a href="#" class="accentLinks">Home</a></li>
+                    <li><a href="#" class="profileLinks">Profile</a></li>
+                    <li><a href="#" class="accentLinks">Find Connections</a></li>
+                </ul>
+            </div>
+            <button class="sign_out">Sign Out</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="d-flex gap">
+            <main class="left-column">
+                <div class="bio">
+                    <div class="bioCard-header">
+                        <img class="profilepicture" src="./images_profilepage/images/todd-s.jpg"
+                            alt="todd-s profile picture">
+                    </div>
+                    <div class="bioCard-body">
+                        <h1 class="username">Jane Doe</h1>
+                        <p class="Seattle"><img src="./images_profilepage/icons/map-marker.png" alt="map marker icon"
+                                id="mapmarker">Seattle</p>
+                        <ul class="bio-occupations">
+                            <li>Developer |</li>
+                            <li>Engineer |</li>
+                            <li>Problem Solver</li>
+                        </ul>
+                        <p class="biobio">Master of shadows and the Internet!</p>
+                        <p><img class="edit-gear" src="./images_profilepage/icons/gear.png"
+                                alt="edit profile gear icon"><a href="#">edit profile</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Education</h4>
+                    </div>
+                    <div class="card-body">
+                        <h4 id="educationbody">Coding Dojo - Full stack bootcamp</h4>
+                        <p id="educationdates">Dec 2019 - Mar 2020</p>
+                        <p>Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+            </main>
+            <aside class="right-column">
+                <div class="card">
+                    <div class="card-header d-flex">
+                        <p id="two">2</p>
+                        <h4>Connection requests</h4>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <img src="./images_profilepage/images/todd-s.jpg" alt="todd s user avatar"
+                                        class="avatar">
+                                    <p>Todd E</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="./images_profilepage/icons/accept-circle.png" alt="accept circle"
+                                        class="actions">
+                                    <img src="./images_profilepage/icons/close-circle.png" alt="close circle"
+                                        class="actions">
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <img src="./images_profilepage/images/phil-s.jpg" alt="phil s user avatar"
+                                        class="avatar">
+                                    <p>Phil K</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="./images_profilepage/icons/accept-circle.png" alt="accept circle"
+                                        class="actions">
+                                    <img src="./images_profilepage/icons/close-circle.png" alt="close circle"
+                                        class="actions">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header d-flex">
+                        <p id="fivehundred">500+</p>
+                        <h4>Your Connections</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="connectionsList">
+                            <li class="d-flex align-left"><img class="avatar" src="./images_profilepage/images/adrien-s.jpg"
+                                    alt="adrien-s profile picture">Adrien D</li>
+                            <li class="d-flex align-left"><img class="avatar" src="./images_profilepage/images/anne-s.jpg"
+                                    alt="anne-s profile picture">Anne J</li>
+                            <li class="d-flex align-left"><img class="avatar" src="./images_profilepage/images/alayne-s.jpg"
+                                    alt="alayne-s profile picture">Alayne T</li>
+                            <li class="d-flex align-left"><img class="avatar" src="./images_profilepage/images/arry-s.jpg"
+                                    alt="arry-s profile picture">Arry Y</li>
+                        </ul>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#">View More</a>
+                    </footer>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

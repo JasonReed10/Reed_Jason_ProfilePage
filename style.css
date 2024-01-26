@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+/* RESET START */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+/* RESET END */
+
+/* UTILITY CLASSES START */
+.container {
+    width: 860px;
+    margin: 0 auto;
+}    
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+.gap {
+    gap: 1rem;
+}    
+
+.align-left {
+    justify-content: left;
+}    
+/* UTILITY CLASSES END */
+
+/* HEADER START */
+header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+    
+}    
+
+.nav_tabs {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    /* margin: 0px 10px; */
+    
+}    
+
+.profile {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: white;
+}    
+
+.sign_out {
+    background-color: #17a2b8;
+    color: white;
+    /* display: flex; */
+    padding: 0px 10px;
+    height: 40px;
+    width: auto;
+    font-size: 20px;
+    align-items: center;
+}    
+
+.accentLinks {
+    color: #898989;
+    text-decoration: none;
+}
+
+.profileLinks {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER CLASSES END */
+
+/* BODY CLASSES START */
+
+.left-column {
+    flex: 2;
+    align-self: flex-start;
+}    
+
+.right-column {
+    flex: 1;
+}     
+
+.profilepicture {
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+#mapmarker {
+    height: 1rem;
+    padding: 0px 10px;
+}    
+
+.seattle {
+    margin: 20px 0px;
+}    
+
+.username {
+    margin-bottom: 10px;
+}    
+
+.edit-gear {
+    height: 1rem;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+}    
+
+.bio-occupations {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-top: 10px;
+}    
+
+.bio {
+    border: gray 3px solid;
+    margin-bottom: 1.5rem;
+    
+}    
+
+
+#educationbody {
+    font-size: 1.2rem;
+}    
+#educationdates {
+    color: gray;
+    margin: 5px 0px;
+}    
+
+.card-footer {
+    border-top: gray 2px solid;
+    padding: 10px;
+}    
+
+.card {
+    border: 3px solid gray;
+    margin-bottom: 1.5rem;
+}    
+
+.card-header {
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+}    
+
+.card-body {
+    padding: 1rem;
+    
+}    
+
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}    
+
+.actions {
+    width: 40px;
+    margin: 3px;
+}    
+
+.bioCard {
+    border: 3px solid gray;
+    margin-bottom: 1.5rem;
+}    
+
+.bioCard-header {
+    height: 100px;
+    background-color: #17a2b8;
+    position: relative;
+    margin-bottom: 40px;
+}    
+
+.bioCard-body {
+    padding: 1rem;
+}    
+
+#two {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+}    
+
+#fivehundred {
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 75%;
+}    
+
